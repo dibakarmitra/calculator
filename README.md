@@ -1,67 +1,77 @@
-# ProfileAPI
+# React Calculator 
 
-## Project Overview
+## Overview
 
-This is a React-based web application for managing and displaying user profiles.
+A sleek, modern calculator built with React and Tailwind CSS, featuring a responsive design and smooth user interactions.
 
 ## Features
 
-- Dynamic user profile display
-- Responsive design
-- Component-based architecture
+- Basic arithmetic operations (+, -, *, /)
+- Responsive and modern UI
+- Error handling
+- Loading state for calculations
+- Hover and transition effects
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- Vite
+- React Icons
 
 ## Prerequisites
 
-- Node.js (v14 or later)
-- npm (v6 or later)
+- Node.js (v18+)
+- pnpm (recommended) or npm
 
-## Installation
+## Getting Started
 
-1. Clone the repository:
+### Installation
+
+1. Clone the repository
 
 ```bash
-git clone https://github.com/dibakarmitra/profile-api.git
-cd profile-api
+git clone https://github.com/yourusername/react-calculator.git
+cd react-calculator
 ```
 
-2. Install dependencies:
+2. Install dependencies
 
 ```bash
 pnpm install
 ```
 
-## Running the Application
-
-To start the development server:
+### Running the Project
 
 ```bash
-pnpm run dev
+# Development mode
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Preview production build
+pnpm preview
 ```
 
-To build for production:
+## Running Tests
 
 ```bash
-pnpm run build
+pnpm test
 ```
 
-## Project Structure
+## Customization
 
-- `src/`: Source code directory
-  - `Component/`: React components
-  - `Card.jsx`: Main profile card component
+Modify `src/Component/Card.jsx` to adjust calculator logic or styling.
 
-## Technologies Used
+## Contributing
 
-- React
-- Vite
-- ESLint for code quality
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-Dibakar Mitra - dibakarmitra07@gmail.com
-
-Project Link: [profile-api-tau.vercel.app](https://profile-api-tau.vercel.app)
