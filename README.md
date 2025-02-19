@@ -32,13 +32,14 @@ A sleek, modern calculator built with React and Tailwind CSS, featuring a respon
 
 ```bash
 git clone https://github.com/dibakarmitra/calculator
-cd react-calculator
+cd calculator
 ```
 
 2. Install dependencies
 
 ```bash
 pnpm install
+```
 ```
 
 ### Running the Project
