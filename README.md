@@ -31,7 +31,7 @@ A sleek, modern calculator built with React and Tailwind CSS, featuring a respon
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/react-calculator.git
+git clone https://github.com/dibakarmitra/calculator
 cd react-calculator
 ```
 
